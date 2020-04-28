@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1588088658634.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3487824355",
+    "id" : "3BD4B70A",
+    "lastKnownWriteTime" : 1588088726,
+    "last_content_update" : 1588088726834,
+    "path" : "~/Rstudio Projects/Coursera/my_first_script.R",
+    "project_path" : "my_first_script.R",
+    "properties" : {
+        "cursorPosition" : "1,13",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
