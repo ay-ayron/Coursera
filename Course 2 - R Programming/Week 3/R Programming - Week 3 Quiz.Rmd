@@ -1,0 +1,47 @@
+---
+title: "Week 3 Quiz"
+output: html_notebook
+---
+
+1) Take a look at the 'iris' dataset that comes with R. The data can be loaded with the code:
+
+There will be an object called 'iris' in your workspace. In this dataset, what is the mean of 'Sepal.Length' for the species virginica? Please round your answer to the nearest whole number.
+
+```{r}
+library(datasets)
+data(iris)
+?iris
+tapply(iris$Sepal.Length, iris$Species, mean)
+```
+
+2) Continuing with the 'iris' dataset from the previous Question, what R code returns a vector of the means of the variables 'Sepal.Length', 'Sepal.Width', 'Petal.Length', and 'Petal.Width'?
+
+```{r}
+apply(iris[, 1:4], 2, mean)
+```
+
+3) Load the 'mtcars' dataset in R with the following code. 
+
+How can one calculate the average miles per gallon (mpg) by number of cylinders in the car (cyl)? Select all that apply.
+
+```{r}
+library(datasets)
+data(mtcars)
+?mtcars
+with(mtcars, tapply(mpg, cyl, mean))
+```
+
+4) Continuing with the 'mtcars' dataset from the previous Question, what is the absolute difference between the average horsepower of 4-cylinder cars and the average horsepower of 8-cylinder cars?
+
+```{r}
+x <- with(mtcars, tapply(hp, cyl, mean))
+print(x)
+x[3]-x[1]
+```
+
+5) If you run the below code, what happens when you next call the 'ls' function?
+
+```{r}
+debug(ls)
+```
+
