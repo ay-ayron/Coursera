@@ -1,9 +1,4 @@
----
-title: "CodeBook"
-author: "Aaron Aziz"
-date: "7/2/2020"
-output: html_document
----
+# CodeBook
 
 #### This code book summarizes the resulting data fields in tidydata.txt.
 

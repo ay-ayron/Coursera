@@ -1,9 +1,4 @@
----
-title: "Getting and Cleaning Data Peer-Graded Assignment"
-author: "Aaron Aziz"
-date: "7/2/2020"
-output: html_document
----
+# Getting and Cleaning Data Peer-Graded Assignment"
 
 This is the course project for the Getting and Cleaning Data Coursera course. The R script, run_analysis.R, does the following:
 
